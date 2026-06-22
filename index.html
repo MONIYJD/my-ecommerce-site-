@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mini E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Apni Dukaan 🛍️</h1>
+        <div id="cart-counter">Cart: <span id="cart-count">0</span> items</div>
+    </header>
+
+    <main>
+        <section class="products-container">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 1">
+                <h3>Cool T-Shirt</h3>
+                <p class="price">₹499</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 2">
+                <h3>Wireless Headphones</h3>
+                <p class="price">₹1,999</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 3">
+                <h3>Smart Watch</h3>
+                <p class="price">₹2,499</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
